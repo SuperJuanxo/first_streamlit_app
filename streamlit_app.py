@@ -26,7 +26,7 @@ streamlit.write('The user entered ', fruit_choice)
 
 #Import requests 
 import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon"+ fruit_choice )
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice )
 #streamlit.text(fruityvice_response.json())--nor normalized values
 
 # normalizes the fruityvice_response values
