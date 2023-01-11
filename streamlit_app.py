@@ -42,9 +42,6 @@ try:
 except URLError as e:
   streamlit.error()
 
-
-#my_data_row = my_cur.fetchone() -- un valor "fetchONE" ---> fetchALL todos
- my_cur.fetchall()
 streamlit.header("The fruit load contains:")
 #Snowflake-related functions
 def get_fruit_load_list():
